@@ -868,7 +868,7 @@ void estadoReposo() {
 
       case MARCHA_2:
       default:
-        manejarParpadeoSimple(pinLED(marchaActual));
+       // manejarParpadeoSimple(pinLED(marchaActual)); // anulacion de fallo de led
         return;
     }
 
@@ -904,7 +904,7 @@ void estadoReposo() {
 
       case MARCHA_R:
       default:
-        manejarParpadeoSimple(pinLED(marchaActual));
+       // manejarParpadeoSimple(pinLED(marchaActual)); // anulacion de fallo de led
         return;
     }
 
